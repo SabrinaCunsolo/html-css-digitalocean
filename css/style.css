@@ -1,0 +1,9 @@
+.navbar-new {
+    padding: 5px 8px;
+    background-color: #00D7D2;
+    color: #031A4F;
+}
+
+.navbar-text::after.navbar-new{
+
+}
