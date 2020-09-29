@@ -1,9 +1,25 @@
+
+.navbar-header {
+    padding-top: 0;
+    min-height: 32px;
+    border-bottom: 1px solid rgb(229,232,237);
+    font-size: 12px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
 .navbar-new {
     padding: 5px 8px;
     background-color: #00D7D2;
     color: #031A4F;
+    float: left;
+    margin-top: 10px;
 }
 
-.navbar-text::after.navbar-new{
 
+.navbar-text {
+    color:#5b6987;
+}
+.navbar-text:hover {
+    color:#0069FE;
 }
