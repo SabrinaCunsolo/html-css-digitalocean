@@ -129,6 +129,34 @@ body{
     padding-top: 20px;
 }
 
+.card-box {
+    max-width: 370px;
+    max-height: 512px;
+    background-color: green;
+    align-items: center;
+    margin: 0;
+    border-radius: 6px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 6px;
+    /* max-width: 100%; */
+    position: relative;
+}
+
+.deploy {
+    background-color: #F2F5F9;
+    border-radius: 6px 6px 0px 0px;
+    padding: 16px 0 12px 0;
+    text-align: center;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #031A4F;
+}
 
 @media (min-width: 768px) {
 
