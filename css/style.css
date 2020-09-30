@@ -129,17 +129,19 @@ body{
     padding-top: 20px;
 }
 
+/* card */
+
 .card-box {
     max-width: 370px;
     max-height: 512px;
-    background-color: green;
+    background-color: white;
     align-items: center;
     margin: 0;
     border-radius: 6px;
 }
 
 .card {
-    background-color: #fff;
+    /* background-color: #fff; */
     border-radius: 6px;
     /* max-width: 100%; */
     position: relative;
@@ -148,7 +150,7 @@ body{
 .deploy {
     background-color: #F2F5F9;
     border-radius: 6px 6px 0px 0px;
-    padding: 16px 0 12px 0;
+    padding: 24px 0 20px 0;
     text-align: center;
 }
 
@@ -157,6 +159,42 @@ h5 {
     font-weight: 700;
     color: #031A4F;
 }
+
+.card-content {
+    padding: 32px;
+}
+
+.sign-email {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.card-buttons {
+    padding: 32px;
+    width: 100%;
+    font-size: 16px;
+    padding: 32px;
+}
+
+.card-buttons .btn-primary:hover{
+    color: #363636;
+    background-color: white;
+    border: 1px solid #363636;
+}
+
+.card-buttons .google-button {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.card-buttons .git-button {
+    padding: 13px;
+    float: left;
+}
+
+
 
 @media (min-width: 768px) {
 
