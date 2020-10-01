@@ -133,7 +133,7 @@ body{
 
 .card-box {
     max-width: 370px;
-    max-height: 512px;
+    /* max-height: 512px; */
     background-color: white;
     align-items: center;
     margin: 0;
@@ -172,10 +172,10 @@ h5 {
 }
 
 .card-buttons {
-    padding: 32px;
+    /* padding: 32px; */
     width: 100%;
     font-size: 16px;
-    padding: 32px;
+    /* padding: 32px; */
 }
 
 .card-buttons .btn-primary:hover{
@@ -184,17 +184,33 @@ h5 {
     border: 1px solid #363636;
 }
 
-.card-buttons .google-button {
-    padding-left: 30px;
-    padding-right: 30px;
+.google-button {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 13px;
+    padding-bottom: 13px;
 }
 
-.card-buttons .git-button {
+.git-button {
+    width: 50px;
     padding: 13px;
     float: left;
 }
 
+/* logogrid */
 
+.logogrid {
+    background-color: #f3f5f9;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    margin: 0 auto;
+}
+
+.innovative {
+    color: #5b6987;
+    font-size: 15px;
+    font-weight: bold;
+}
 
 @media (min-width: 768px) {
 
