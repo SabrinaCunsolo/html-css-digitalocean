@@ -171,18 +171,23 @@ h5 {
 }
 
 .sign-email {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     width: 100%;
     font-size: 16px;
+    margin-bottom: 20px;
 }
 
 .card-buttons {
+    border-top: 1px solid #F2F5F9;
+    padding-top: 20px;
     /* padding: 32px; */
     width: 100%;
     font-size: 16px;
     /* padding: 32px; */
 }
+
+
 
 .card-buttons .btn-primary:hover{
     color: #363636;
@@ -197,10 +202,22 @@ h5 {
     padding-bottom: 13px;
 }
 
+.sign-email:hover {
+    background-color: #1633FE;
+    border: 1px solid #1633FE;
+}
+
 .git-button {
     width: 50px;
     padding: 13px;
     float: left;
+}
+
+.card-by-text p{
+    color: white;
+    font-size: 12px;
+    padding-left: 60px;
+    /* text-align: center; */
 }
 
 /* logogrid */
