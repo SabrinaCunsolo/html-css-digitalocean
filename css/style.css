@@ -270,6 +270,48 @@ h2 {
     line-height: 30px;
 }
 
+.deploy-colonne div {
+    color: #697796;
+    font-size: 17px;
+    width: 249px;
+}
+
+.deploy-colonne div:hover {
+    color: #041B4F;
+    font-size: 17px;
+    width: 249px;
+}
+
+.colonna-deploy, .colonna-scale, .colonna-store, .colonna-secure, .colonna-monitor {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: pink;
+    border-left: 2px solid #E5E8EC;
+}
+
+.colonna-deploy:hover{
+    border-left: 2px solid #0469FE;
+}
+
+.colonna-scale:hover{
+    border-left: 2px solid #0469FE;
+}
+
+.colonna-store:hover{
+    border-left: 2px solid #0469FE;
+}
+
+.colonna-secure:hover{
+    border-left: 2px solid #0469FE;
+}
+
+.colonna-monitor:hover{
+    border-left: 2px solid #0469FE;
+}
+
+
 @media (min-width: 768px) {
 
     .navbar-collapse.collapse {
