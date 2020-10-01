@@ -12,7 +12,7 @@ body{
 }
 
 .nav-link {
-    border-bottom: 1px solid rgb(229,232,237);
+    /* border-bottom: 1px solid rgb(229,232,237); */
     min-height: 32px;
 }
 
@@ -49,8 +49,14 @@ body{
     padding-left: 30px;
 }
 
-.nav2-link {
-    border-bottom: 1px solid rgb(229,232,237);
+
+
+.navbar {
+    border-bottom: none;
+    margin: 0;
+}
+
+.navbar.nav2-link {
     min-height: 40px;
 }
 
@@ -105,7 +111,7 @@ body{
 
 .jumbo {
     background-image: url('https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg');
-    height: 850px;
+    /* height: 850px; */
     background-size: cover;
     background-position: center;
     padding: 200px 0;
