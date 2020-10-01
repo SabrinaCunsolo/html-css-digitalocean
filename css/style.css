@@ -270,6 +270,10 @@ h2 {
     line-height: 30px;
 }
 
+.deploy-row {
+    padding-top: 60px;
+}
+
 .deploy-colonne div {
     color: #697796;
     font-size: 17px;
@@ -287,7 +291,6 @@ h2 {
     padding-bottom: 15px;
     padding-left: 20px;
     padding-right: 20px;
-    background-color: pink;
     border-left: 2px solid #E5E8EC;
 }
 
@@ -309,6 +312,20 @@ h2 {
 
 .colonna-monitor:hover{
     border-left: 2px solid #0469FE;
+}
+
+.cont1 {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr;
+    max-width: 860px;
+    padding-left: 120px;
+}
+
+.cont1 p {
+    color: #5b6987;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 
