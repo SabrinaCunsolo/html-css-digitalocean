@@ -136,6 +136,9 @@ body{
 }
 
 /* card */
+.card-pad {
+    padding-left: 100px;
+}
 
 .card-box {
     max-width: 370px;
@@ -430,6 +433,15 @@ h2 {
 .dot:hover {
     background-color: #0168FE;
 }
+
+/* section built */
+.built {
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin: 0 auto;
+}
+
 
 @media (min-width: 768px) {
 
