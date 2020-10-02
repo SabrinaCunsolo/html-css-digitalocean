@@ -523,12 +523,32 @@ h2 {
     text-decoration: none;
 }
 
-.section-service li {
-    list-style-type:none;
+.section-service table {
+    list-style-type: none;
     height: 40px;
-    border-bottom: 1px solid hsla(0,0%,100%,0.2);
+    border-bottom: 1px solid #405178;
+    font-size: 13px;
 }
 
+.table.text-bold td {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 10px;
+    color: white;
+}
+
+.table.text-thin td {
+    font-size: 13px;
+    text-align: left;
+    margin-left: 0px;
+    color: #5b6987;
+}
+
+.service-list a{
+    text-align: left;
+    color: #00d7d2;
+}
 
 @media (min-width: 768px) {
 
