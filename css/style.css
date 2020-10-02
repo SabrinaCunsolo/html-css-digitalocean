@@ -442,6 +442,47 @@ h2 {
     margin: 0 auto;
 }
 
+.built-grid {
+    margin-top: 64px;
+    text-align: center;
+}
+
+.reliable, .predictable, .world, .security {
+    display: inline-block;
+    float: left;
+    width: 20%;
+    text-align: left;
+    margin: 12px 20px;
+    line-height: 27px;
+}
+
+.img-built {
+    padding-bottom: 20px;
+}
+
+.p-built {
+    padding-top: 20px;
+    color: #5b6987;
+    font-size: 16px;
+    font-weight: 350;
+}
+
+.built-grid a{
+    color: #0069FE;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+
+.built-grid a:hover {
+    color: #1633FE;
+    text-decoration: none;
+}
+
+
 
 @media (min-width: 768px) {
 
