@@ -574,6 +574,90 @@ td {
     color: #00d7d2;
 }
 
+/* section development */
+
+.section-development {
+    background-color: #F2F5F9;
+    padding-top: 80px;
+    /* padding-bottom: 80px; */
+    margin: 0 auto;
+}
+
+.development-box {
+    background-color: white;
+    padding: 50px 40px;
+    max-width: 900px;
+    max-height: 580px;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(3,27,78,0.06);
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+.sect-development a{
+    color: #0069FE;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 20px;
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+
+.sect-development a:hover {
+    color: #1633FE;
+    text-decoration: none;
+}
+
+.section-development img.development-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 200px;
+}
+
+.development-text {
+    padding-top: 30px;
+    padding-bottom: 15px;
+    color: #5B6987;
+    font-size: 22px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.section-development a.link-read{
+    color: #0069FE;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+.section-development a.link-read:hover {
+    color: #1633FE;
+    text-decoration: none;
+}
+
+.section-development p.rick {
+    color: #5B6987;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.section-development p.co-founder {
+    color: #5B6987;
+    font-size: 12px;
+    font-weight: 100;
+    text-align: center;
+}
+
 @media (min-width: 768px) {
 
     .navbar-collapse.collapse {
